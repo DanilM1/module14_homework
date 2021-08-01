@@ -12,7 +12,7 @@ class Electronics {
     }
 
     power() {
-        return ampere * 220; // theory
+        return this.ampere * 220; // theory
     }
 }
 
@@ -43,7 +43,7 @@ class Mixer extends Electronics {
 }
 
 let pc = new Laptop("on", 5.0, 300, "USA", 2.34, "no", "large");
-let mixer = new Mixer("off", 0.7, 100, 0.07, 700, "Nike", "no");
+let mixer = new Mixer("off", 0.7, 100, "Belarus", 0.07, 700, "Nike", "no");
 
 pc.oc = "Linux";
 console.log(pc.ampere);
