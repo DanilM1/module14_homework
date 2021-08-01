@@ -16,5 +16,4 @@ function own(device, str) {
     }
 }
 
-own(electronics, a);
 own(electronics, b);
